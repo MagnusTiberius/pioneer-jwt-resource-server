@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "security",
+      "type": "com.pioneer.oauth.jwt.ds.config.SecurityProperties",
+      "sourceType": "com.pioneer.oauth.jwt.ds.config.SecurityProperties"
+    },
+    {
+      "name": "security.jwt",
+      "type": "com.pioneer.oauth.jwt.ds.config.SecurityProperties$JwtProperties",
+      "sourceType": "com.pioneer.oauth.jwt.ds.config.SecurityProperties",
+      "sourceMethod": "public com.pioneer.oauth.jwt.ds.config.SecurityProperties.JwtProperties getJwt() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.jwt.public-key",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "com.pioneer.oauth.jwt.ds.config.SecurityProperties$JwtProperties"
+    }
+  ],
+  "hints": []
+}
