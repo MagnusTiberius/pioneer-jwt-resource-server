@@ -1,6 +1,0 @@
-com\marcosbarbero\lab\sec\oauth\jwt\ds\config\ResourceServerConfiguration.class
-com\marcosbarbero\lab\sec\oauth\jwt\ds\web\UserController.class
-com\marcosbarbero\lab\sec\oauth\jwt\ds\config\SecurityProperties.class
-com\marcosbarbero\lab\sec\oauth\jwt\ds\config\WebSecurityConfiguration.class
-com\marcosbarbero\lab\sec\oauth\jwt\ds\config\SecurityProperties$JwtProperties.class
-com\marcosbarbero\lab\sec\oauth\jwt\ds\ResourceServerJwtApplication.class

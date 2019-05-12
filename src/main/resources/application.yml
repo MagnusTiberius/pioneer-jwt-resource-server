@@ -1,5 +1,5 @@
 server:
-  port: 9100
+  port: 8765
 
 security:
   jwt:
@@ -9,3 +9,17 @@ spring:
   jackson:
     serialization:
       INDENT_OUTPUT: true
+  application:
+    name: pioneer-jwt-resource-server          
+      
+eureka:         #tells about the Eureka server details and its refresh time
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
