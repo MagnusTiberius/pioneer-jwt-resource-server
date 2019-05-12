@@ -1,0 +1,6 @@
+com\pioneer\oauth\jwt\ds\config\SecurityProperties.class
+com\pioneer\oauth\jwt\ds\config\SecurityProperties$JwtProperties.class
+com\pioneer\oauth\jwt\ds\config\ResourceServerConfiguration.class
+com\pioneer\oauth\jwt\ds\web\UserController.class
+com\pioneer\oauth\jwt\ds\ResourceServerJwtApplication.class
+com\pioneer\oauth\jwt\ds\config\WebSecurityConfiguration.class
